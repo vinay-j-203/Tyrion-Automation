@@ -1,0 +1,220 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-23T12:35:57.123Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7157814300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.hooksTest.launchBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "user is on landing page",
+        "description": "",
+        "id": "landing-to-homepage-and-login;user-is-on-landing-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1952700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.hooksTest.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 295490300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.hooksTest.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1190212600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "parallel.loginstepDefinationTest.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 209440500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username coddisabled@sharklasers.com and pwd coddisabled@123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "coddisabled@sharklasers.com",
+                  "offset": 21
+                },
+                {
+                  "val": "coddisabled@123",
+                  "offset": 57
+                }
+              ],
+              "location": "parallel.loginstepDefinationTest.user_enters_username_and_pwd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50864400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on login button",
+            "match": {
+              "location": "parallel.loginstepDefinationTest.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 619394500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "navigate to home page",
+            "match": {
+              "location": "parallel.loginstepDefinationTest.navigate_to_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 254600900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "logout of the application",
+            "match": {
+              "location": "parallel.loginstepDefinationTest.logout_of_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Landing to homepage and login",
+    "description": "",
+    "id": "landing-to-homepage-and-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/parallel/LoginTest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-23T12:36:07.011Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5752715100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.hooksTest.launchBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search functionality",
+        "description": "",
+        "id": "landing-to-homepage-and-search;search-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.hooksTest.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 549649900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.hooksTest.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 141621100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on landing page and search for \"Bosch\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bosch",
+                  "offset": 40
+                }
+              ],
+              "location": "parallel.searchstepDefinationTest.user_is_on_landing_page_and_search_for_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94747300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on search icon",
+            "match": {
+              "location": "parallel.searchstepDefinationTest.click_on_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "search results for Bosch should be displayed",
+            "match": {
+              "location": "parallel.searchstepDefinationTest.search_results_for_bosch_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Landing to homepage and search",
+    "description": "",
+    "id": "landing-to-homepage-and-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/parallel/searchTest.feature",
+    "tags": []
+  }
+]

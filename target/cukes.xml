@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="16.592">
+    <testcase classname="Landing to homepage and login" name="user is on landing page" time="9.874">
+        <system-out><![CDATA[When user clicks on login button............................................passed
+And user enters username coddisabled@sharklasers.com and pwd coddisabled@123.passed
+And clicks on login button..................................................passed
+Then navigate to home page..................................................passed
+Then logout of the application..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Landing to homepage and search" name="Search functionality" time="6.55">
+        <system-out><![CDATA[When user is on landing page and search for "Bosch".........................passed
+And click on search icon....................................................passed
+Then search results for Bosch should be displayed...........................passed
+]]></system-out>
+    </testcase>
+</testsuite>

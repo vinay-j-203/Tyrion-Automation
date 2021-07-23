@@ -1,0 +1,4 @@
+configurations\Base.class
+pageObjects\search.class
+pageObjects\homePage.class
+pageObjects\loginandlogout.class

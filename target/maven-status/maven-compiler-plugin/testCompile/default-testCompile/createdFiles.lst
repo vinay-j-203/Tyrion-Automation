@@ -1,0 +1,4 @@
+parallel\loginstepDefinationTest.class
+testrunners\MyTestRunnerTest.class
+parallel\searchstepDefinationTest.class
+parallel\hooksTest.class

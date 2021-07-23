@@ -1,0 +1,27 @@
+2021-07-23 17:55:16 DEBUG clicked on login button
+2021-07-23 17:55:16 INFO  Login page title grabed successfully
+2021-07-23 17:55:17 DEBUG username and pwd sent
+2021-07-23 17:55:17 DEBUG entered uname and pwd and clicked on login
+2021-07-23 17:55:17 INFO  Navigated to home page and grabed the title
+2021-07-23 17:55:18 DEBUG logged out of application successfully
+2021-07-23 18:05:59 INFO  chrome driver initialized
+2021-07-23 18:06:04 INFO  URL launched
+2021-07-23 18:06:04 INFO  Window maximized
+2021-07-23 18:06:04 INFO  driver & Browser is initialized
+2021-07-23 18:06:04 DEBUG clicked on login button
+2021-07-23 18:06:05 INFO  Login page title grabed successfully
+2021-07-23 18:06:05 DEBUG username and pwd sent
+2021-07-23 18:06:05 DEBUG entered uname and pwd and clicked on login
+2021-07-23 18:06:06 INFO  Navigated to home page and grabed the title
+2021-07-23 18:06:06 DEBUG logged out of application successfully
+2021-07-23 18:06:06 ERROR screenshot of the error is taken
+2021-07-23 18:06:06 INFO  Browser is closed
+2021-07-23 18:06:08 INFO  chrome driver initialized
+2021-07-23 18:06:12 INFO  URL launched
+2021-07-23 18:06:12 INFO  Window maximized
+2021-07-23 18:06:12 INFO  driver & Browser is initialized
+2021-07-23 18:06:12 INFO  Search keyword is entered
+2021-07-23 18:06:13 DEBUG clicked on search icon
+2021-07-23 18:06:13 INFO  search results are displayed
+2021-07-23 18:06:13 ERROR screenshot of the error is taken
+2021-07-23 18:06:13 INFO  Browser is closed
